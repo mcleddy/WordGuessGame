@@ -1,0 +1,43 @@
+
+    body {
+        background-image: url("https://npca.s3.amazonaws.com/images/8814/497257c5-564f-4e87-a02a-2fd8ec96df9a-banner.jpg?1445970724");
+
+    }
+
+    h1 {
+        font-family: serif;
+        font-size: 60px;
+        color: blueviolet;
+        letter-spacing: 1px;
+        
+    }
+
+    .container {
+        text-align: center;
+        background-color: aliceblue;
+        margin-top: 8%;
+        padding: 2px;
+        border: 2px solid #021a40;
+        border-color: darkblue;
+
+    }
+
+    p {
+        color: #021a40;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 40px;
+
+    }
+
+    .main-content {
+        margin: 10px;
+        color: blueviolet;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+    }
+
+    .counters {
+        color: #021a40;
+        margin: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }

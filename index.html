@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Word-Guess-Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="jumbotron verticle-center col-sm-12">
+            <h1>Word Guess Game</h1>
+            <p>Guess the Sonoran Desert Animal! </p>
+        </div>
+        <div class="main-content">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title"> Word To Guess</h3>
+                </div>
+                <div class="panel-body">
+                    <h2 id="wordToGuess">_ _ _ _ _ _ _</h2>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    Wrong Guesses: <span id="wrongGuesses"></span>
+                </div>
+            </div>
+
+
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    Guesses Left: <span id="numGuesses"></span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="counters">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    Win Counter: <span id="winCounter">0</span>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    Loss Counter: <span id="lossCounter">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="assets/javascript/game.js"></script>
+
+<style>
+
+    body {
+        background-image: url("https://npca.s3.amazonaws.com/images/8814/497257c5-564f-4e87-a02a-2fd8ec96df9a-banner.jpg?1445970724");
+
+    }
+
+    h1 {
+        font-family: serif;
+        font-size: 60px;
+        color: blueviolet;
+        letter-spacing: 1px;
+        
+    }
+
+    .container {
+        text-align: center;
+        background-color: aliceblue;
+        margin-top: 8%;
+        padding: 2px;
+        border: 2px solid #021a40;
+        border-color: darkblue;
+
+    }
+
+    p {
+        color: #021a40;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 40px;
+
+    }
+
+    .main-content {
+        margin: 10px;
+        color: blueviolet;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+    }
+
+    .counters {
+        color: #021a40;
+        margin: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+</style>
+
+</html>
