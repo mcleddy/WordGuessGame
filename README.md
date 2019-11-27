@@ -1,2 +1,3 @@
 # WordGuessGame
-fixed Word guess homework
+
+https://mcleddy.github.io/WordGuessGame/
